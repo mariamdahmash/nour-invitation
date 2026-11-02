@@ -58,6 +58,17 @@ h3 {
   color: #a77e80;
   font-weight: 700;
 }
+.footer {
+    color: white;
+    background: #a77e80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+}
+.foot {
+    text-align: center;
+}
 .primary,
 .outline {
   display: inline-flex;
