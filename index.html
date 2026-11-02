@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#FFF9F3" />
+    <meta
+      name="description"
+      content="دعوة خطوبة نورهان وعمر — السبت 14 نوفمبر 2026"
+    />
+    <title>دعوة حب | نورهان ♡ عمر</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="petals" id="petals" aria-hidden="true"></div>
+    <div class="opening" id="opening">
+      <div class="opening-inner">
+        <p class="eyebrow">دعوة حب</p>
+        <div class="envelope" id="envelope" aria-hidden="true">
+          <div class="env-back"></div>
+          <div class="env-letter">
+            <span class="mini">بكل الحب</span><strong>ن <i>&</i> ع</strong>
+          </div>
+          <div class="env-flap"></div>
+          <div class="env-front"></div>
+          <div class="env-seal">♡</div>
+        </div>
+        <h1>خطوبة نورهان وعمر</h1>
+        <p>بكل الحب، ندعوكم لمشاركتنا أجمل لحظاتنا</p>
+        <button class="primary" id="openBtn">افتحوا دعوتنا ♡</button>
+      </div>
+    </div>
+    <main id="main" inert>
+      <section class="hero section">
+        <div class="floral floral-a" aria-hidden="true">✿</div>
+        <div class="monogram" aria-label="ن وع">ن <span>&</span> ع</div>
+        <p class="eyebrow">حكاية حب... وبداية عمر جديد</p>
+        <h1>نور <span class="heart">♡</span> عمر</h1>
+        <p class="sub">فرحتنا تكمل بوجودكم معانا</p>
+        <div class="photo-frame reveal">
+          <picture
+            ><source srcset="images/couple.jpg" type="image/jpeg" />
+            <img
+              id="couplePhoto"
+              src="images/couple.jpg"
+              alt="صورة نورهان وعمر"
+              onerror="
+                this.onerror = null;
+                this.src = 'images/couple.png';
+                this.onerror = function () {
+                  this.style.display = 'none';
+                  this.parentElement.parentElement.classList.add('no-photo');
+                };
+              "
+          /></picture>
+          <div class="photo-fallback">صورتنا الحلوة ♡</div>
+        </div>
+        <p class="small-note">معاكم تكتمل الحكاية</p>
+      </section>
+      <section class="section details reveal">
+        <p class="eyebrow">SAVE THE DATE</p>
+        <h2>خطوبة نورهان وعمر</h2>
+        <div class="detail-card">
+          <div class="detail-item">
+            <span class="detail-icon">✧</span>
+            <div>
+              <strong>السبت 14 نوفمبر 2026</strong><small>يوم فرحتنا</small>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="detail-item">
+            <span class="detail-icon">◷</span>
+            <div>
+              <strong>الساعة 8 مساءً</strong><small>بتوقيت القاهرة</small>
+            </div>
+          </div>
+        </div>
+        <h3>فاضل على فرحتنا</h3>
+        <div class="countdown" role="timer" aria-label="الوقت المتبقي للخطوبة">
+          <div><b id="days">00</b><span>الأيام</span></div>
+          <div><b id="hours">00</b><span>الساعات</span></div>
+          <div><b id="minutes">00</b><span>الدقائق</span></div>
+          <div><b id="seconds">00</b><span>الثواني</span></div>
+        </div>
+        <p id="countdownDone" class="done" hidden>النهارده يوم فرحتنا! ♡</p>
+        <button class="outline" id="calendarBtn">
+          ✧ أضيفوا الموعد للتقويم
+        </button>
+      </section>
+      <section class="section message reveal">
+        <div class="message-card">
+          <span class="ornament">❀</span>
+          <h2>لحظة حلوة... وذكرى هتفضل العمر كله</h2>
+          <p>
+            في يوم بنحلم بيه من زمان،<br />بنستنى الناس اللي بنحبهم يكونوا
+            معانا،<br />عشان تفضل فرحتنا ذكرى حلوة تجمعنا بيكم.
+          </p>
+          <span class="ornament">❀</span>
+        </div>
+      </section>
+      <section class="section venue reveal">
+        <p class="eyebrow">WITH LOVE</p>
+        <h2>فرحتنا تحلى بوجودكم</h2>
+        <p>مستنيينكم تنورونا وتشاركونا أجمل لحظاتنا</p>
+        <div class="venue-card">
+          <span class="pin">⌖</span>
+          <h3>مكان الاحتفال</h3>
+          <p class="venue-name">Divaa</p>
+          <a
+            class="primary map-link"
+            href="https://maps.app.goo.gl/DyGBWhxAvbo9Fw9z6?g_st=aw"
+            target="_blank"
+            rel="noopener noreferrer"
+            >افتحوا موقع القاعة على الخريطة 📍</a
+          >
+        </div>
+      </section>
+      <footer class="section closing reveal">
+        <p class="prayer">اللهم بارك لهما وبارك عليهما واجمع بينهما في خير</p>
+        <div class="monogram small">ن <span>&</span> ع</div>
+        <h2>نور <span class="heart">♡</span> عمر</h2>
+        <p>وجودكم أجمل هدية ♡</p>
+      </footer>
+    </main>
+    <button
+      id="musicBtn"
+      class="music-btn"
+      type="button"
+      aria-label="تشغيل الموسيقى"
+      aria-pressed="false"
+      hidden
+    >
+      ♫<span class="music-indicator"></span></button
+    ><audio
+      id="music"
+      preload="none"
+      loop
+      src="audio/engagement-song.mp3"
+    ></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
